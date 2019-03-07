@@ -4,6 +4,8 @@ set -e
 
 echo "Installing artillery for load tests: https://artillery.io/docs/getting-started/"
 
+npm install npm@latest -g
+
 npm install -g artillery
 
 export NEXT_APP_COLOR=$(cat ./current-app-info/next-app.txt)

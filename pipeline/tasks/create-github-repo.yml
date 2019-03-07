@@ -4,7 +4,7 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: alekssaul/github-create-repository
+    repository: microdevopsbot/github-create-repository
     tag: "v0.2.1"
 
 inputs:

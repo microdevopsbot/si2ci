@@ -24,8 +24,8 @@ curl https://$SPRING_INITURL/starter.tgz  \
 tar -zxvf spring.tgz
 rm spring.tgz
 
-git config --global user.email "ubsbot@pivotal.io"
-git config --global user.name "UBS BOT"
-git add -A 
+git config --global user.email "MicroDevOpsBOT@gmail.com"
+git config --global user.name "MicroDevOpsBOT"
+git add -A
 git commit -a -m "Added Spring Initializr content"
 git push
