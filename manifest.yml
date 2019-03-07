@@ -1,6 +1,6 @@
 ---
 applications:
-- name: mysi2ci
+- name: micro-si2ci
   memory: 512M
   instances: 1
   buildpack: go_buildpack
